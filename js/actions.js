@@ -35,12 +35,8 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
-      $("#logobranco").hide()
-      $("#logo").show()
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
-      $("#logo").hide()
-      $("#logobranco").show()
     }
   };
   // Collapse now if page is not at top
