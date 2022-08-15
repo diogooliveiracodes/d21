@@ -89,6 +89,29 @@ p {
   margin-bottom: 1rem;
 }
 
+.fa-facebook {
+  color: white;
+}
+
+.fa-facebook:hover {
+ color: #1094f4;
+ height: 20px;
+width: 20px;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);
+  border-radius: 7px;
+  color: black;
+  height: 20px;
+  width: 20px;
+}
+ 
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -119,6 +142,34 @@ ol ul,
 ul ol {
   margin-bottom: 0;
 }
+
+.footer-menu li p a {
+  color: white;
+}
+
+.footer-menu li p a:hover {
+  cursor: pointer;
+  color: red;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer-service li > p {
+  background-image: linear-gradient(transparent 0%, transparent 90%, red 90%, red 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 300ms;
+}
+
+li > p:hover {
+  background-size: 60% 100%;
+  background-position-x: left;
+}
+
 
 dt {
   font-weight: 700;
@@ -9983,6 +10034,10 @@ hr.light {
   padding: 6rem 0;
 }
 
+.page-section-footer {
+  padding: 3rem 0;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -10320,4 +10375,38 @@ header.masthead h1 {
 
 .d21-title{
   display: none;
+}
+
+
+.footer {
+  background: #343a40;
+  color: white;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.footer .links ul {
+  list-style-type: none;
+}
+.footer .links li a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .links li a:hover {
+  text-decoration: none;
+  color: red;
+}
+.footer .about-company i {
+  font-size: 25px;
+}
+.footer .about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+.footer .about-company a:hover {
+  color: #4180cb;
+}
+.footer .location i {
+  font-size: 18px;
+}
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, .1);
 }
