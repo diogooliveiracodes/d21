@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Desenvolvimento de sistemas web e aplicativos. Criação e manutenção de software com qualidade, agilidade e segurança." />
+        <meta name="author" content="d21.agency" />
         <title>D21 Agency</title>
         <!-- favicon -->
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -13,31 +13,28 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- Third party plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/estilo.css" rel="stylesheet" />
-        <!-- sweet alert -->
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
+
+        <!-- Navbar-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top"> < D21 ></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#garantias">Garantias</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#quemsomos">Quem somos</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#servicos">Serviços</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contato">Contato</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <!-- Masthead-->
-        <header class="masthead">
+        <!-- home-->
+        <header class="masthead" id="home">
             <div class="container container-masterhead h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end d21-title">
@@ -49,21 +46,25 @@
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">
-                            Conte com nosso time de Experts para desenvolver e escalar seu projeto com desempenho e segurança.
-                        </p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#garantias">Saiba Mais</a>
+                        <h2 class="text-white-75 font-weight-light mb-5 subtitle">
+                            Conte com nosso time de especialistas para criar e escalar o seu sistema com desempenho e segurança.
+                        </h2>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#quemsomos">Saiba Mais</a>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- About-->
+        <!-- home-->
 
-        <!-- garantias-->
-        <section class="page-section" id="garantias">
+        <!-- quem somos-->
+        <section class="page-section" id="quemsomos">
             <div class="container">
-                <h2 class="text-center mt-0">Garantias</h2>
+                <h2 class="text-center mt-0">QUEM SOMOS</h2>
                 <hr class="divider my-4" />
+                <h3 class="mb-5 quem-somos-descricao text-center text-muted">
+                    A D21 é uma fábrica de software que ajuda empresas a criar e desenvolver sistemas para todas as plataformas.
+                    Buscamos complementar a equipe de nossos parceiros com profissionais qualificados para gerar soluções modernas e confiáveis. 
+                </h3>
                 <div class="row">
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
@@ -96,7 +97,7 @@
                 </div>
                 <div class="row h-100 mt-5 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-baseline">
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#servicos">Como funciona?</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#servicos">nossos serviços</a>
                     </div>
                 </div>
             </div>
@@ -111,54 +112,74 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/1.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/1.jpg" alt="Análise de Requisitos de Software" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-
                                 <h4 class="subheading text-white">Análise de requisitos</h4>
                             </div>
-                            <div class="timeline-body"><p style="color:#C0C0C0">Nossa equipe de analistas faz uma entrevista para entender todas as funcionalidades que você quer disponibilizar em seu site. </p></div>
+                            <div class="timeline-body">
+                                <p style="color:#C0C0C0">
+                                    Nosso time de analistas faz um levantamento para entender as demandas do seu negócio. 
+                                </p>
+                            </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/2.jpg" alt="" /></div>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="./img/2.jpg" alt="Desenvolvimento de sistemas" />
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-
-                                <h4 class="subheading text-white">Criação de arte</h4>
+                                <h4 class="subheading text-white">Projeto de Software</h4>
                             </div>
-                            <div class="timeline-body"><p style="color:#C0C0C0">Nesta etapa nós criamos todas as artes necessárias para a divulgação do seu negócio. Se já possui todo o seu conteúdo digital, podemos reutilizá-lo. </p></div>
+                            <div class="timeline-body">
+                                <p style="color:#C0C0C0">
+                                    Nossos experts em Arquitetura de Software projetam a melhor solução para a criação do seu sistema até a publicação e futuras manutenções.
+                                </p>
+                            </div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/3.jpg" alt="" /></div>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="./img/3.jpg" alt="fábrica de software" />
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading text-white">Desenvolvimento do sistema</h4>
                             </div>
-                            <div class="timeline-body"><p style="color:#C0C0C0">Utilizamos as tecnologias mais modernas para o desenvolvimento web. Com o auxílio de Frameworks de última geração, garantimos uma perfeita padronização de código e rápida entrega.  <p></div>
+                            <div class="timeline-body">
+                                <p style="color:#C0C0C0">
+                                    Utilizamos as tecnologias mais modernas para o desenvolvimento de software e garantimos entregas contínuas de funcionalidades para o seu sistema.  
+                                <p>
+                            </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="./img/4.jpg" alt="" /></div>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="./img/4.jpg" alt="serviço de programação" />
+                        </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading text-white">Publicação</h4>
                             </div>
-                            <div class="timeline-body"><p style="color:#C0C0C0">Registramos o seu domínio e hospedamos seu site nas melhores plataformas online. Assim garantimos o melhor desempenho e que seu serviço esteja sempre disponível na internet.</p></div>
+                            <div class="timeline-body">
+                                <p style="color:#C0C0C0">
+                                    Em parceria com as melhores plataformas de hospedagem, colocamos seu sistema online com alta disponibilidade e preços acessíveis.
+                                </p>
+                            </div>
                         </div>
                     </li>
                 </ul>
                 <div class="row mt-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 mt-3 align-self-baseline">
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Entre em contato</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contato">ENTRE EM CONTATO</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact-->
-        <section class="page-section" id="contact">
+        <!-- contato-->
+        <section class="page-section" id="contato">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
@@ -220,7 +241,7 @@
               <h4 class="mt-lg-0 mt-sm-3">Menu</h4>
                 <ul class="pt-2 m-0 p-0">
                     <li><a class="text-muted js-scroll-trigger" href="#page-top">Início</a></li>
-                    <li><a class="text-muted js-scroll-trigger" href="#garantias">Garantias</a></li>
+                    <li><a class="text-muted js-scroll-trigger" href="#quemsomos">Quem somos</a></li>
                     <li><a class="text-muted js-scroll-trigger" href="#servicos">Serviços</a></li>
                     <li><a class="text-muted js-scroll-trigger" href="#contato">Contato</a></li>
                 </ul>
@@ -243,7 +264,7 @@
 
         <!-- whatsapp button -->
         <a class="fixada btn-floating btn-sm rgba-white-slight mx-4 mb-5" href="https://wa.me/5531998292129" style="">
-            <img src="./img/whatsapp.png" height="70px" alt="">
+            <img src="./img/whatsapp.png" height="70px" alt="botão whatsapp">
         </a>
 
         <!-- Bootstrap core JS-->
@@ -253,8 +274,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js" integrity="sha384-FzT3vTVGXqf7wRfy8k4BiyzvbNfeYjK+frTVqZeNDFl8woCbF0CYG6g2fMEFFo/i" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 
         <style>
 
